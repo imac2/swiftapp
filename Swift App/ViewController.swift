@@ -1,6 +1,8 @@
 //
 //  ViewController.swift
 //  Swift App
+
+// My TEST CHANGE 4 SourceTree!
 //
 //  Created by Ima Christian on 8/18/16.
 //  Copyright (c) 2016 Pinetart Inc. All rights reserved.
@@ -10,17 +12,20 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    
     @IBOutlet weak var theLbl: UILabel!
     
-    var tapCount = 0
+    @IBOutlet weak var textfield1: UITextField!
     
+    @IBOutlet weak var textfield2: UITextField!
+    
+  
     @IBAction func buttonTapped(sender: AnyObject) {
         
-        tapCount++
         
-        if tapCount >= 10 {
-            theLbl.text="You've hit the button 10 times!"
-        }
+        
+        theLbl.text = "Answer is...\(Double(textfield1.text!)! + Double(textfield2.text!)!)"
+   
         
     }
     

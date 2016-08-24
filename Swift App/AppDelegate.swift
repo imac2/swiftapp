@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  Swift App
+//  Swift App (Ims)
 //
 //  Created by Ima Christian on 8/18/16.
 //  Copyright (c) 2016 Pinetart Inc. All rights reserved.
